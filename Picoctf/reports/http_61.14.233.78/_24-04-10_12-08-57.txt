@@ -1,0 +1,29 @@
+# Dirsearch started Wed Apr 10 12:13:30 2024 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -e php,html,js -u http://61.14.233.78 -r --exclude-subdirs image/,media/,css/
+
+301   309B   http://61.14.233.78/js    -> REDIRECTS TO: http://61.14.233.78/js/
+403   277B   http://61.14.233.78/.htaccess.bak1
+403   277B   http://61.14.233.78/.ht_wsr.txt
+403   277B   http://61.14.233.78/.htaccess.orig
+403   277B   http://61.14.233.78/.htaccess.sample
+403   277B   http://61.14.233.78/.htaccess_extra
+403   277B   http://61.14.233.78/.htaccessOLD
+403   277B   http://61.14.233.78/.htaccessOLD2
+403   277B   http://61.14.233.78/.htaccessBAK
+403   277B   http://61.14.233.78/.htaccess.save
+403   277B   http://61.14.233.78/.html
+403   277B   http://61.14.233.78/.htm
+403   277B   http://61.14.233.78/.htaccess_sc
+403   277B   http://61.14.233.78/.htaccess_orig
+403   277B   http://61.14.233.78/.htpasswd_test
+403   277B   http://61.14.233.78/.htpasswds
+403   277B   http://61.14.233.78/.httr-oauth
+200   139B   http://61.14.233.78/ajax.php
+301   310B   http://61.14.233.78/css    -> REDIRECTS TO: http://61.14.233.78/css/
+200     0B   http://61.14.233.78/flag.txt
+301   310B   http://61.14.233.78/img    -> REDIRECTS TO: http://61.14.233.78/img/
+403   277B   http://61.14.233.78/js/
+200    84B   http://61.14.233.78/robots.txt
+403   277B   http://61.14.233.78/server-status
+403   277B   http://61.14.233.78/server-status/
+200     1KB  http://61.14.233.78/js/main.js
+404   274B   http://61.14.233.78/server-status/%2e%2e//google.com

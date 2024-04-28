@@ -1,0 +1,13 @@
+- alice have x key -> a = g^x mod p -> b^x == g^xy (x is alice key, y is bob key)
+- bob have y key -> b= g^ y mod p -> a^y = g^xy (-------------------------------)
+- public key (g,p)
+***
+    để tính được x từ g^x hoặc y từ g^y là rất khó vì giải quyết bài toán bằng hàm logarithm với số lớn
+***
+
+-> basic of diffie-hellman
+    a=x*G -> x*b = x*y*G = K
+    b*y*G -> y*b = x*y*G = K
+***
+    để tính được x từ x*G hoặc y từ y*G là rất khó vì phải vận dụng elliptic-curve discrete logarithm problem 
+***

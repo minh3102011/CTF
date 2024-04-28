@@ -1,0 +1,6 @@
+secret_key đọc từ key.txt và giải mã bytes từ hex
+pt người nhập 32 kí tự
+pt đc mã hóa encrypt_and_leak
+encrypt_and_leak mã hóa pt bằng hàm encrypt
+encrypt mã hóa pt bằng leaky_aes_secret với mỗi kí tự plaintext tương untws với 1 kí tự keys trong range(16) 
+leaky_aes_secret xor data_byte với key_byte và thêm vào leak_buf giá trị 0 nếu 

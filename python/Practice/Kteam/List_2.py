@@ -1,4 +1,4 @@
-a = [1, 2, 3]
+a = [0, 2, 3]
 print(a)
 a.append([4,5]) # thêm list vào list a output = [1,2,3, [4,5]]
 a.extend([4,5]) # thêm phần tử 4 5 vào list a ouput = [1,2,3,4,5]

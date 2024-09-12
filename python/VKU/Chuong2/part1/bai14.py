@@ -1,0 +1,10 @@
+import math as m
+a = int(input("Nhap so a: "))
+b = int(input("Nhap so b: "))
+print(f"a+b = {a+b}")
+print(f"a-b = {a-b}")
+print(f"a*b = {a*b}")
+print(f"a/b = {a/b}")
+print(f"a%b = {a%b}")
+print(f"a^b = {a**b}")
+print(f"log(10)a = {m.log10(a)}")

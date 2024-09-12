@@ -4,7 +4,7 @@ from cryptography.hazmat.primitives.hashes import SHA256
 #create private key
 private_key = rsa.generate_private_key(
     public_exponent=65537,
-    key_size=2048
+    key_size=1024
 )
 p = private_key.private_numbers().p
 q = private_key.private_numbers().q
@@ -20,7 +20,7 @@ print(f"e: {e}")
 
 
 #encrypt with public key
-plaintext= b'ABC'
+plaintext= b'dokki'
 
 oaep_padding = padding.OAEP(mgf=padding.MGF1(algorithm=SHA256()), algorithm=SHA256(), label=None)
 ciphertext = public_key.encrypt(plaintext, oaep_padding)
